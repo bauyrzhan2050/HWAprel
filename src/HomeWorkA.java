@@ -8,6 +8,7 @@ public class HomeWorkA {
         List<Integer> list = Arrays.asList(1, 2, 3, 4, 5);
         listSwapAndLast(list);
         System.out.printf("AA");
+        System.out.print("BB");
         System.out.println(list);
     }
 
