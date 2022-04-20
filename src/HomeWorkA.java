@@ -7,6 +7,7 @@ public class HomeWorkA {
     public static void main(String[] args) {
         List<Integer> list = Arrays.asList(1, 2, 3, 4, 5);
         listSwapAndLast(list);
+        System.out.printf("AA");
         System.out.println(list);
     }
 
@@ -17,6 +18,7 @@ public class HomeWorkA {
         tempList.set(0, lastElement);
         tempList.set(tempList.size() - 1, firstElement);
         return tempList;
+
     }
     //2.Написать метод, который преобразует массив в ArrayList;
 
